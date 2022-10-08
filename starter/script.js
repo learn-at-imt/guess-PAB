@@ -101,7 +101,3 @@ function numbersOnly(input) {
   var regex = /[^]/g;
   input.value = input.value.replace(regex, ' ');
 }
-
-// let range = new Range();
-// range.setStart(input, 0);
-// range.setEnd(input, 20);
